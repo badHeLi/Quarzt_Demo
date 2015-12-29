@@ -13,6 +13,8 @@
 		AFF536FC1C2A2CCE00F47AF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF536FA1C2A2CCE00F47AF8 /* Main.storyboard */; };
 		AFF536FE1C2A2CCE00F47AF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF536FD1C2A2CCE00F47AF8 /* Assets.xcassets */; };
 		AFF537011C2A2CCE00F47AF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF536FF1C2A2CCE00F47AF8 /* LaunchScreen.storyboard */; };
+		AFF5370A1C2A2D1E00F47AF8 /* QuartzView.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF537091C2A2D1E00F47AF8 /* QuartzView.m */; };
+		AFF5370D1C2A2F1100F47AF8 /* QuartzMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF5370C1C2A2F1100F47AF8 /* QuartzMainView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		AFF536FD1C2A2CCE00F47AF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFF537001C2A2CCE00F47AF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFF537021C2A2CCE00F47AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFF537081C2A2D1E00F47AF8 /* QuartzView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuartzView.h; path = ../QuartzView.h; sourceTree = "<group>"; };
+		AFF537091C2A2D1E00F47AF8 /* QuartzView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuartzView.m; path = ../QuartzView.m; sourceTree = "<group>"; };
+		AFF5370B1C2A2F1100F47AF8 /* QuartzMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuartzMainView.h; path = ../QuartzMainView.h; sourceTree = "<group>"; };
+		AFF5370C1C2A2F1100F47AF8 /* QuartzMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuartzMainView.m; path = ../QuartzMainView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 		AFF536F01C2A2CCE00F47AF8 /* Quarzt_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				AFF537081C2A2D1E00F47AF8 /* QuartzView.h */,
+				AFF537091C2A2D1E00F47AF8 /* QuartzView.m */,
+				AFF5370B1C2A2F1100F47AF8 /* QuartzMainView.h */,
+				AFF5370C1C2A2F1100F47AF8 /* QuartzMainView.m */,
 				AFF536F41C2A2CCE00F47AF8 /* AppDelegate.h */,
 				AFF536F51C2A2CCE00F47AF8 /* AppDelegate.m */,
 				AFF536F71C2A2CCE00F47AF8 /* ViewController.h */,
@@ -150,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFF536F91C2A2CCE00F47AF8 /* ViewController.m in Sources */,
+				AFF5370A1C2A2D1E00F47AF8 /* QuartzView.m in Sources */,
+				AFF5370D1C2A2F1100F47AF8 /* QuartzMainView.m in Sources */,
 				AFF536F61C2A2CCE00F47AF8 /* AppDelegate.m in Sources */,
 				AFF536F31C2A2CCE00F47AF8 /* main.m in Sources */,
 			);
